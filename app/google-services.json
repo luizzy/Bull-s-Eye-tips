@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "873558550970",
+    "firebase_url": "https://bullseye-tips.firebaseio.com",
+    "project_id": "bullseye-tips",
+    "storage_bucket": "bullseye-tips.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873558550970:android:d3918aa5697ecc88",
+        "android_client_info": {
+          "package_name": "com.montylee.bullseyetips"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "873558550970-n4ufdlbcjcankvqorpbsl952ulj3kup8.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "873558550970-n4ufdlbcjcankvqorpbsl952ulj3kup8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoY85i_y2ah1eXroAfA6hxZSVOqK5IsGo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
