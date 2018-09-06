@@ -105,7 +105,7 @@ public class Daily_Tips extends Fragment {
             }
         };
         mRecyclerView.setAdapter(firebaseRecyclerAdapter);
-    }
+        }
 
     public static class ItemViewHolder extends RecyclerView.ViewHolder {
 

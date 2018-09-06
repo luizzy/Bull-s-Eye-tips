@@ -21,7 +21,8 @@
         <activity
             android:name=".Home"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar"
+            android:configChanges="keyboardHidden|orientation|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -31,8 +32,10 @@
         |
         <activity
             android:name=".Post_Details"
-            android:label="Bull's Eye Tips" />
+            android:label="Bull's Eye Tips"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
         <activity android:name=".Feedback" />
+
     </application>
 
 </manifest>

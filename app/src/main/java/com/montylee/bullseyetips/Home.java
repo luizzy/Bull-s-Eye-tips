@@ -68,6 +68,8 @@ public class Home extends AppCompatActivity
         }
     }
 
+
+
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -105,6 +107,8 @@ public class Home extends AppCompatActivity
         getMenuInflater().inflate(R.menu.home, menu);
         return true;
     }
+
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -212,13 +216,13 @@ public class Home extends AppCompatActivity
            /* case R.id.nav_joinvip:
                 fragment = new JoinVip();
                 title = "Join VIP";
-                break;
+                break;*/
             case R.id.nav_telegram:
                 fragment = new Telegram_Websites();
                 title = "Telegram Channel";
                 mInterstitialAd = createNewIntAd();
                 loadIntAdd();
-                break;*/
+                break;
             case R.id.nav_livescore:
                 fragment = new Live_Scores();
                 /*mInterstitialAd = createNewIntAd();
@@ -245,4 +249,5 @@ public class Home extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
 
     }
+
 }

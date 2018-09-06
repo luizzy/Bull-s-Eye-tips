@@ -33,7 +33,7 @@ public class Feedback extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (email != null) {
-                    Intent intent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts("mailto", "lewiscrafton95@gmail.com", null));
+                    Intent intent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts("mailto", "victorpredictz@gmail.com", null));
                     //intent.setType("text/plain");
                     intent.putExtra(Intent.EXTRA_EMAIL, email);
                     intent.putExtra(Intent.EXTRA_SUBJECT,"Bull's Eye Tips Feedback");

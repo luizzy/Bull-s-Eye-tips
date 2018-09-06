@@ -20,8 +20,8 @@
     <string name="interstitial_mine">ca-app-pub-9947239344212752/8568060860</string>
     <string name="native_ad">ca-app-pub-3940256099942544/2247696110</string>
     <string name="banner_ad">ca-app-pub-9947239344212752/9283638518</string>
-    <string name="app_descrip">Property of: ©MontyLee </string>
-    <string name="About_App">Version 1.\n\nDeveloper:Lewis Crafton.\n\nAll suggestions for improvements are welcomed.</string>
+    <string name="app_descrip">\n\nProperty of: ©MontyLee </string>
+    <string name="About_App">Version 3.0\n\n All suggestions for improvements are welcomed.</string>
     <string name="title_activity_index">Index</string>
 
     <!-- TODO: Remove or change this placeholder text -->

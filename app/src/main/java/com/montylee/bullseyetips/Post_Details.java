@@ -38,6 +38,9 @@ public class Post_Details extends AppCompatActivity {
     String selection;
     private AdView mAdView;
     AutoLinkTextView autoLinkTextView;
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -134,55 +137,56 @@ public class Post_Details extends AppCompatActivity {
     }
 
 
-   /* private InterstitialAd createNewIntAd() {
-        InterstitialAd intAd = new InterstitialAd(PostDetailed.this);
-        // set the adUnitId (defined in values/strings.xml)
-        intAd.setAdUnitId(getString(R.string.interstitial));
-        intAd.setAdListener(new AdListener() {
-            @Override
-            public void onAdLoaded() {
-                Handler handler = new Handler();
-                handler.postDelayed(new Runnable() {
-                    public void run() {
-                        showIntAdd();
+    /* private InterstitialAd createNewIntAd() {
+                InterstitialAd intAd = new InterstitialAd(PostDetailed.this);
+                // set the adUnitId (defined in values/strings.xml)
+                intAd.setAdUnitId(getString(R.string.interstitial));
+                intAd.setAdListener(new AdListener() {
+                    @Override
+                    public void onAdLoaded() {
+                        Handler handler = new Handler();
+                        handler.postDelayed(new Runnable() {
+                            public void run() {
+                                showIntAdd();
+                            }
+                        }, 6000);
+
                     }
-                }, 6000);
 
+                    @Override
+                    public void onAdFailedToLoad(int errorCode) {
+
+
+                    }
+
+                    @Override
+                    public void onAdClosed() {
+                        // Proceed to the next level.
+                    }
+                });
+                return intAd;
             }
 
-            @Override
-            public void onAdFailedToLoad(int errorCode) {
-
-
+            private void loadIntAdd() {
+                AdRequest adRequest = new AdRequest.Builder()
+                        .build();
+                mInterstitialAd.loadAd(adRequest);
             }
 
-            @Override
-            public void onAdClosed() {
-                // Proceed to the next level.
+            private void showIntAdd() {
+
+        // Show the ad if it's ready. Otherwise toast and reload the ad.
+                if (mInterstitialAd != null && mInterstitialAd.isLoaded()) {
+                    mInterstitialAd.show();
+                }
             }
-        });
-        return intAd;
-    }
-
-    private void loadIntAdd() {
-        AdRequest adRequest = new AdRequest.Builder()
-                .build();
-        mInterstitialAd.loadAd(adRequest);
-    }
-
-    private void showIntAdd() {
-
-// Show the ad if it's ready. Otherwise toast and reload the ad.
-        if (mInterstitialAd != null && mInterstitialAd.isLoaded()) {
-            mInterstitialAd.show();
-        }
-    }
-*/
+        */
    private InterstitialAd createNewIntAd() {
        InterstitialAd intAd = new InterstitialAd(Post_Details.this);
        // set the adUnitId (defined in values/strings.xml)
        intAd.setAdUnitId(getString(R.string.interstitial));
        intAd.setAdListener(new AdListener() {
+
            @Override
            public void onAdLoaded() {
                Handler handler = new Handler();
@@ -191,6 +195,7 @@ public class Post_Details extends AppCompatActivity {
                        showIntAdd();
                    }
                }, 300);
+
 
            }
 
@@ -221,10 +226,12 @@ public class Post_Details extends AppCompatActivity {
             mInterstitialAd.show();
         }
     }
+
+
     @Override
     public void onBackPressed() {
-        /*mInterstitialAd = createNewIntAd();
-        loadIntAdd();*/
+        mInterstitialAd = createNewIntAd();
+        loadIntAdd();
         finish();
     }
 
@@ -337,3 +344,4 @@ public class Post_Details extends AppCompatActivity {
 
     }
 }
+

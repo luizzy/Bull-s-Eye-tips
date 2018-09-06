@@ -107,6 +107,7 @@ public class Two_Odds extends Fragment {
             }
         };
         mRecyclerView.setAdapter(firebaseRecyclerAdapter);
+
     }
 
     public static class ItemViewHolder extends RecyclerView.ViewHolder {
