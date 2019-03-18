@@ -5,7 +5,7 @@
     <color name="colorAccent">#967df5</color>
 
     <color name="orange"> #ff9800</color>
-    <color name="green"> #4caf50</color>
+    <color name="green"> #fff</color>
     <color name="lightBlue"> #03a9f4</color>
     <color name="deepPurple"> #673ab7</color>
     <color name="pink"> #e91e63</color>
@@ -19,6 +19,6 @@
     <color name="navigationBarColor">#000000</color>
 
     <color name="colorBlack">#000</color>
-    <color name="primary_device_default_light">#a4c639</color>
-    <color name="black">#a4c639</color>
+    <color name="primary_device_default_light">#fff</color>
+    <color name="black">#fff</color>
 </resources>

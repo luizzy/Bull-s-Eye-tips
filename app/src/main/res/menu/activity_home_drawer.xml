@@ -7,17 +7,15 @@
             android:title="Daily Tips" />
         <item
             android:id="@+id/nav_bet9ja"
-            android:title="Daily Two Plus Tips" />
+            android:title="Pro Tips" />
         <item
             android:id="@+id/nav_betin"
-            android:title="Mega Jackpot Tips" />
+            android:title="High Odd Tips" />
         <item
             android:id="@+id/nav_telegram"
             android:title="Telegram Channel" />
 
-        <item
-            android:id="@+id/nav_livescore"
-            android:title="Live Scores" />
+
     </group>
    <!-- <item android:title="More Winning Tips">-->
 

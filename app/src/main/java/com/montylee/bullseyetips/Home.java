@@ -199,13 +199,13 @@ public class Home extends AppCompatActivity
                 break;
             case R.id.nav_bet9ja:
                 fragment = new Two_Odds();
-                title = "Daily Two Plus Tips";
+                title = "Pro Tips";
                 /*mInterstitialAd = createNewIntAd();
                 loadIntAdd();*/
                 break;
             case R.id.nav_betin:
                 fragment = new Mega_Jackpot_Tips();
-                title = "Mega Jackpot Tips";
+                title = "High Odd Tips";
                 /*mInterstitialAd = createNewIntAd();
                 loadIntAdd();*/
                 break;
@@ -223,15 +223,10 @@ public class Home extends AppCompatActivity
                 mInterstitialAd = createNewIntAd();
                 loadIntAdd();
                 break;
-            case R.id.nav_livescore:
-                fragment = new Live_Scores();
-                /*mInterstitialAd = createNewIntAd();
-                loadIntAdd();*/
-                title = "SofaScore Live Score";
-                break;
+
             default:
                 fragment = new Daily_Tips();
-                title = "Daily Super Tips";
+                title = "Daily Tips";
         }
 
         if (fragment != null) {

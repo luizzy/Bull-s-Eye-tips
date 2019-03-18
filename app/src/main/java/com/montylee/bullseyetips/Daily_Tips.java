@@ -175,6 +175,3 @@ public class Daily_Tips extends Fragment {
         }
     }
 }
-
-
-

@@ -178,6 +178,3 @@ public class Two_Odds extends Fragment {
         }
     }
 }
-
-
-

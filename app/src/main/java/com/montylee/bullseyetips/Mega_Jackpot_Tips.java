@@ -176,6 +176,3 @@ public class Mega_Jackpot_Tips extends Fragment {
         }
     }
 }
-
-
-
